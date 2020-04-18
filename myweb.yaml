@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: userimack/endgame:1
+      - image: userimack/endgame
         imagePullPolicy: Always
         name: myweb
 ---
